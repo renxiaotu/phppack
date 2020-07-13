@@ -3,7 +3,6 @@ package phppack
 import (
 	"encoding/hex"
 	"errors"
-	"fmt"
 	"github.com/renxiaotu/dtc/tobytes"
 	"reflect"
 	"strings"
@@ -32,8 +31,6 @@ func PackByStruct(data interface{}) ([]byte, error) {
 	default:
 		return nil, errors.New(PackageName + ":unsupported data type")
 	}
-
-	fmt.Println(pts)
 
 	for i := 0; i < len(pts); i++ {
 		v := value.FieldByName(pts[i].Name).Interface()
