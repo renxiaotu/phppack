@@ -3,10 +3,11 @@ php pack/unpack for go
 
 与php兼容的数据打包解包工具
 
-#require 依赖
+# require 依赖
+
 github.com/renxiaotu/phppack
 
-#使用说明
+# 使用说明
 
 **struct打包解包：**
 
