@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/hex"
 	"errors"
-	"github.com/renxiaotu/go/bytes/frombytes"
+	"github.com/renxiaotu/dtc/frombytes"
 	"reflect"
 	"strconv"
 )

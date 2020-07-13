@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/renxiaotu/go/bytes/tobytes"
+	"github.com/renxiaotu/dtc/tobytes"
 	"reflect"
 	"strings"
 )
