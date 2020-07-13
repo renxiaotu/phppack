@@ -5,7 +5,7 @@ php pack/unpack for go
 
 # require 依赖
 
-github.com/renxiaotu/phppack
+1. [github.com/renxiaotu/dtc](https://github.com/renxiaotu/dtc) 数据类型转换工具
 
 # 使用说明
 
