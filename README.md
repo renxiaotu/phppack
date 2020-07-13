@@ -1,5 +1,6 @@
 # phppack
 php pack/unpack for go
+
 与php兼容的数据打包解包工具
 
 #require 依赖
